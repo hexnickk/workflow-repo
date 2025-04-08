@@ -9,5 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Target Workflow on main branch
-        uses: hexnickk/action-repo@303334fe564a6478f6350c3b4657fb928202a9a1
+        uses: hexnickk/action-repo@fad5bfb349b1ee93334e3be09473270b35d73e92
         
