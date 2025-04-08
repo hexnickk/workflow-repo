@@ -1,0 +1,13 @@
+name: Workflow Repo
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Target Workflow on main branch
+        uses: hexnickk/action-repo@303334fe564a6478f6350c3b4657fb928202a9a1
+        
